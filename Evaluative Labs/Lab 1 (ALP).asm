@@ -23,7 +23,7 @@ x1:	cmp [si],bl
 	inc si
 	dec cl
 	jnz x1
-	jmp x3
+	jmp x3 
 
 x2:	mov al,[si]
 	mov [di],al
